@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS 201 Project</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,100&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Nav Bar-->
+    <nav class="navbar">
+      <h1 class="logo">ADVENTURE</h1>
+      <ul class="nav-link">
+        <li class="active"><a href="#"></a>Home</li>
+        <li><a href="#"></a>Tours</li>
+        <li><a href="#"></a>Explore</li>
+        <li><a href="#"></a>About</li>
+        <li class="ctn"><a href="#"></a>Contact</li>
+      </ul>
+      <img src="./images/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+      <div class="header-content">
+        <h2>Explore The World</h2>
+        <div class="line"></div>
+        <h1>A WONERFUL GIFT</h1>
+        <a href="#" class="ctn">Learn More</a>
+      </div>
+    </header>
+
+    <!-- Events -->
+    <section class="events">
+      <div class="title">
+        <h1>Upcoming Events</h1>
+        <div class="line"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="./images/timo-stern-iUBgeNeyVy8-unsplash.jpg" alt="">
+          <h4>European Walking Tours</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque corrupti facilis voluptatibus, excepturi pariatur quod tempore quas natus commodi qui veniam maiores repellat ea quaerat numquam quos id, quia cupiditate?</p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+      
+      <div class="col">
+        <img src="./images/img2.png" alt="">
+        <h4>Walking Holiday</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque corrupti facilis voluptatibus, excepturi pariatur quod tempore quas natus commodi qui veniam maiores repellat ea quaerat numquam quos id, quia cupiditate?</p>
+        <a href="#" class="ctn">Learn More</a>
+      </div>
+    </div>
+    </section>
+
+    <section class="explore">
+      <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quia accusantium molestiae eveniet. Nostrum nulla explicabo repellendus iure quia, dolorum ipsum saepe laborum veniam, delectus, optio adipisci quod rem voluptate.</P>
+        <a href="#" class="ctn">Learn More</a>
+
+      </div>
+    </section>
+
+    <section class="tours">
+      <div class="row">
+        <div class="col content-col">
+          <h1>UPCOMING TOURS & DESTINATIONS</h1>
+          <div class="line"></div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptates possimus voluptate. Nemo soluta possimus provident. Optio architecto est, laudantium nobis accusamus minus pariatur repudiandae maiores. Ratione assumenda sit dignissimos?</p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col image-col">
+          <div class="image-gallery">
+            <img src="./images/img3.png" alt="">
+            <img src="./images/img4.png" alt="">
+            <img src="./images/img5.png" alt="">
+            <img src="./images/img6.png" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+   <section class="footer">
+     <p>123 Fifth Avenue NY, New York 10160 USA| Phone: 800-123-4567 | Email: contact@example.com</p>
+     <p>Copyright 2022 Outdoor Adventure</p>
+   </section>
+    <script>
+      const menuBtn = document.querySelector('.menu-btn')
+      const navLink = document.querySelector('.nav-link')
+
+      menuBtn.addEventListener('click',()=>{
+        navLink.classList.toggle('mobile-menu')
+      })
+    </script>
+  
+</body>
+</html>
